@@ -2,10 +2,10 @@
 A chrome extension for reading data-attributes. Right now this is hardcoded to specific attributes, but a settings page is ready to make this more general.
 
 ### Installation
-* Download and unzip.
+* Clone/download repository.
 * Go to chrome://extensions
-* Click "Load unpacked extension" and choose the unzipped folder.
-* You should see a tool called "DevOps Debugger" has been added to your extensions.
+* Click "Load unpacked extension" and choose this folder.
+* You should see a tool called "Data Attribute Grabber" has been added to your extensions.
 * You should also see the tool is now available in the status menu (next to the browser address bar).
 
 
