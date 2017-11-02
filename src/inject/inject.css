@@ -1,0 +1,41 @@
+.nflx-debug-mode:after{
+  display: none;
+	content: "DEBUG MODE: Use alt-click to capture highlighted element IDs. Click anywhere to refresh.";
+  background: rgba(203, 255, 16, 1);;
+  color: #333;
+  padding: 3px;
+  font-size: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nflx-debug-mode [data-nflx-key]{
+  cursor: pointer;
+}
+
+.nflx-debug-mode [data-nflx-key]:hover{
+  -webkit-box-shadow:inset 0px 0px 0px 2px rgba(203, 255, 16, 1);
+  -moz-box-shadow:inset 0px 0px 0px 2px rgba(203, 255, 16, 1);
+  box-shadow:inset 0px 0px 0px 2px rgba(203, 255, 16, 1);
+}
+
+/*
+.nflx-debug-mode [data-nflx-key]:hover:after{
+	content: "Click while hovering to copy:\A["attr(data-nflx-key-label)": "attr(data-nflx-key)"]";
+  background: black;
+  color: rgba(203, 255, 16, 1);;
+  padding: 3px;
+  position: fixed;
+  transform: translateX(-50%) translateY(-8px);
+	z-index: 1000000;
+  bottom: 100%;
+  left: 50%;
+  white-space: pre;
+}
+*/
+
+.nflx-debug-mode #hidden-clipboard{
+  opacity: 0;
+}
